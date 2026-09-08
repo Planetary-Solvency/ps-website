@@ -13,9 +13,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-kramdown:
-  input: GFM
-
 sass:
   style: compressed
 

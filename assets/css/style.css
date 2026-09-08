@@ -82,17 +82,16 @@ h2 {
 }
 p { margin: 0 0 1rem; }
 
-.card-list { list-style: none; margin: 0; padding: 0; }
-.card-list li {
+.content ul { list-style: none; margin: 0; padding: 0; }
+.content li {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 1rem 1.25rem;
   margin-bottom: 0.75rem;
   background: #fff;
 }
-.card-list a { font-weight: 600; text-decoration: none; }
-.card-list a:hover { text-decoration: underline; }
-.card-list .meta { display: block; font-size: 0.85rem; color: var(--muted); margin-top: 0.25rem; }
+.content li a { font-weight: 600; text-decoration: none; }
+.content li a:hover { text-decoration: underline; }
 
 .note {
   background: var(--accent-soft);
