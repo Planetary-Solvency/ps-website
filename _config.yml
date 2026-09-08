@@ -1,0 +1,27 @@
+title: Planetary Solvency
+tagline: "A systems approach to global risk management for human prosperity."
+description: >-
+  Planetary Solvency is a systems approach to understanding and managing
+  global risk in support of long-term human prosperity.
+url: "https://test.planetarysolvency.org"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+kramdown:
+  input: GFM
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
